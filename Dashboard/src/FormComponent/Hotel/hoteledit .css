@@ -1,0 +1,20 @@
+/* HotelEdit.css */
+.hotel-edit-container {
+  max-width: 600px; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form labels */
+.hotel-edit-container label {
+  font-weight: normal; /* Remove the bold font for labels */
+}
+
+/* Style for error messages */
+.hotel-edit-container .is-invalid {
+  border-color: #dc3545; /* Red border for invalid input */
+}

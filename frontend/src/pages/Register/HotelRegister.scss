@@ -1,0 +1,38 @@
+// styles.scss
+
+$primaryColor: #3faa46;
+
+.form-container {
+  margin-top: 20px;
+}
+
+.owner-name-input,
+.hotel-name-input,
+.contact-number-input,
+.type-input,
+.city-input,
+.address-input,
+.title-input,
+.description-input,
+.room-title-input,
+.room-price-input,
+.room-max-people-input,
+.room-description-input,
+.room-number-input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.upload-button {
+  color: $primaryColor;
+}
+
+.submit-button {
+  background-color: $primaryColor;
+  color: white;
+  margin-top: 16px;
+}
+
+.error-message {
+  color: red;
+}

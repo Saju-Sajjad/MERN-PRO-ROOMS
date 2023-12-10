@@ -1,0 +1,58 @@
+/* sidebar.scss */
+
+.sidebar {
+  background-color: #333; /* Background color for the sidebar */
+  color: #fff; /* Text color for the sidebar */
+  width: 250px; /* Adjust the width as needed */
+  padding: 20px; /* Add padding as needed */
+  height: 100%; /* Set the height to 100% to fill the entire height of the container */
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Add scroll bar when content overflows */
+  z-index: 1;
+}
+
+.logo img {
+  height: 40px;
+  /* Add any additional logo styles here */
+}
+
+.sidebar-divider {
+  border: 1px solid #555; /* Divider line color */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  margin: 10px 0; /* Add margin between menu items as needed */
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff; /* Text color for menu items */
+  display: flex;
+  align-items: center;
+}
+
+.menu-link:hover {
+  background-color: #444; /* Background color on hover */
+}
+
+.menu-link > svg {
+  font-size: 20px; /* Adjust the icon size as needed */
+  margin-right: 10px;
+}
+
+/* Add styles for individual menu items if needed */
+.menu-item:nth-child(odd) {
+  background-color: #222; /* Background color for odd menu items */
+}
+
+.menu-item:nth-child(even) {
+  background-color: #333; /* Background color for even menu items */
+}
